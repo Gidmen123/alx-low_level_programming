@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - lastdigit
+ * main - Entry point
  *
- * Return: 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -14,7 +14,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	x - n % 10;
+	x = n % 10;
 	printf("Last digit of %d is %d ", n, x);
 	if (x > 5)
 	{

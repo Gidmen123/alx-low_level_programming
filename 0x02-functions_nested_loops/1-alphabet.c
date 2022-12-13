@@ -3,7 +3,7 @@
 /**
  * main - print alphabetsin lowercases
  */
-void main(void)
+int main(void)
 {
 	char la;
 

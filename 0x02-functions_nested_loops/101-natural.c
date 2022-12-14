@@ -13,9 +13,9 @@ int main(void)
 
 	while (c < 1024)
 	{
-		if (c % 3 == 0 || C % 5 == 0)
+		if (c % 3 == 0 || c % 5 == 0)
 		{
-			sum += C;
+			sum += c;
 		}
 		c++;
 	}

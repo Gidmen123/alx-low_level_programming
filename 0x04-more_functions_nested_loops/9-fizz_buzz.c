@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+
 /**
  * main - print the number from 1 to 100
  * multiples of 3 print Fizz instead of the number
@@ -7,6 +8,7 @@
  * multiples of 3 & 5 prints FizzBuzz
  * Return: Always 0
  */
+
 int main(void)
 {
 	int i;

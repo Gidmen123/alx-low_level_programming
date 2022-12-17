@@ -2,7 +2,7 @@
 /**
  * print_triangle - function that prints a triangle
  * @size: size of the triangle
- * Return: Always 0
+ * Return: triangle of '#'s
  */
 void print_triangle(int size)
 {
@@ -28,5 +28,4 @@ void print_triangle(int size)
 			_putchar('\n');
 		}
 	}
-	return (0)
 }

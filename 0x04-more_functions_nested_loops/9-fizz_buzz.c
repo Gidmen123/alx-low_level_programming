@@ -3,12 +3,11 @@
 
 /**
  * main - print the number from 1 to 100
- * multiples of 3 print Fizz instead of the number
- * multiples of 5 prints Buzz instead of the number
- * multiples of 3 & 5 prints FizzBuzz
+ * 3 multiples print Fizz instead of the number
+ * 5 print Buzz instead of the number
+ * 3 & 5 print FizzBuzz
  * Return: Always 0
  */
-
 int main(void)
 {
 	int i;
@@ -16,10 +15,10 @@ int main(void)
 	char b[] = "Buzz";
 	char fb[] = "FizzBuzz";
 
-	for (i - 1; i <= 100; i++)
+	for (i = 1; i <= 100; i++)
 	{
 		if (i == 100)
-			printf("%s ", b);
+			printf("%s", b);
 		else if ((i % 3 == 0) && (i % 5 == 0))
 			printf("%s ", fb);
 		else if (i % 3 == 0)

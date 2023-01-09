@@ -4,12 +4,12 @@
 /**
  * main - Print the name of the program
  * @agrc: Count arguments
- * @agrv: Arguments
+ * @argv: Arguments
  *
  * Return: Always 0 (Success)
  */
 
-int main(int agrc, char *agrv[])
+int main(int agrc, char *argv[])
 {
 	(void)agrc;
 	printf("%s\n", argv[0]);

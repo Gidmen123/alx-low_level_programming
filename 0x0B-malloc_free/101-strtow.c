@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "horberton.h"
+#include "main.h"
 
 /**
  * count_word - helper function to count the number of words in a string
@@ -41,7 +41,7 @@ char **strtow(char *str)
 
 	while (*(str + len))
 		len++;
-	words = count_words(str);
+	words = count_word(str);
 	if (words == 0)
 		return (NULL);
 
